@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    background: #000000; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E0C4FD, #8FC6FD); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E0C4FD, #8FC6FD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 0 0 30px 30px;
+    justify-content: center;
+    color: whitesmoke;
+}
+/* .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: .5em;
+} */
+img{
+    aspect-ratio: 1 / 1;
+    width: 200px;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+body{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
